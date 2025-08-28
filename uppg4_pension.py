@@ -6,3 +6,8 @@ Räkna med att man går i pension vid 67 års ålder.
 Exempel på utskrift, det inom () ska ändras om variablerna ändras:
 Hej och välkommen till mitt program (Hampus). Du har (39) år kvar till pension.
 """
+
+name = input("Namn: ")
+age = int(input("Ålder: "))
+
+print(f"Hej och välkommen till mitt program {name}. Du har {67-age} år kvar till pension.")
